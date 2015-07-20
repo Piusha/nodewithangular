@@ -33,12 +33,10 @@ sudo cp /web/server_config/nginx.conf /etc/nginx/
 echo -e "\n restarting nginx ...... ---\n "
 sudo service nginx restart
 
-
-echo -e "\n Installing Initial node modules ...... ---\n "
-
-
-echo -e "\n Installing Mean JS ...... ---\n "
+echo -e "\n Installing express JS ...... ---\n "
 sudo npm install -g express
+echo -e "\n Installing Bower JS ...... ---\n "
+sudo npm install -g bower
 
 
 
